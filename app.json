@@ -1,0 +1,18 @@
+{
+    "name": "GostHK",
+    "description": "Deploy Gost on heroku.",
+    "keywords": "gost",
+    "env": {
+        "CMD": {
+            "description": "command",
+            "value": "-L relay+grpc://gost:gostv3@:443"
+        },
+        "DLURL": {
+            "description": "gost dowanload url",
+            "value": "https://github.com/go-gost/gost/releases/download/v3.0.0-alpha.2/gost-linux-amd64-3.0.0-alpha.2.gz"
+        }
+    },
+    "website": "https://github.com/go-gost/gost",
+    "repository": "https://github.com/go-gost/gost",
+    "stack": "container"
+}
