@@ -5,7 +5,11 @@
     "env": {
         "CMD": {
             "description": "command",
-            "value": "-L relay+grpc://gost:gostv3@:443"
+            "value": "-L relay+grpc://gost:gostv3@"
+        },
+        "MDATA": {
+            "description": "medata",
+            "value": ""
         },
         "DLURL": {
             "description": "gost dowanload url",
